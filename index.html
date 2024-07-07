@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./assets/logo.jpeg" type="image/x-icon">
+  <link rel="stylesheet" href="index.css">
+  <title>Assignment</title>
+</head>
+<body class="container">
+    <header class="header" id="header">
+      <nav class="navbar">
+        <a href="#header">Home</a><a href="#Game-Overview">Overview</a><a href="#Gameplay">Gameplay</a><a href="#Specifications">Specifications</a>
+      </nav>
+    </header>
+      <main>
+         <img src="assets/Logo.png" alt="Cricket-24-Logo" class="logo">
+         <div class="Game-Overview container1">
+            <h2 class="title-game-overview" id="Game-Overview">Game Overview</h2>
+            <div class="desc-game-overview">
+              <p class="overview">Cricket 24 is the culmination of a decade of Cricket video game development and includes teams from every corner of the globe. Players will be able to take on major cricket nations including Australia and England in the official Ashes, West Indies, New Zealand, Ireland and more, plus for the first time ever, professional Indian T20 teams, all set in over 50 detailed official stadiums. Cricket 24 is the most complete video game simulation of cricket seen to date.
+                In Cricket 24, players can relish the opportunity to compete against major cricket nations like Australia, England, West Indies, New Zealand, Ireland, and for the first time, professional Indian T20 teams. Matches will be held in more than 50 well-detailed stadiums. If you enjoyed previous iterations Cricket 19 and Cricket 22, then this one is for you as well.
+              </p>
+            </div>
+         </div>
+         <div class="gameplay" id="Gameplay">
+          <h2 class="title-gamplay">Gameplay Highlights</h2>
+          <iframe width="500" height="400" class="game-trailer" 
+            src="https://www.youtube.com/embed/hZ6Jpf2i1cw" allowfullscreen="true">
+          </iframe>
+          <div class="gameplay-desc">
+            <p class="gameplay-desc-p">
+              In this Gameplay video, the Dynamic Broadcast Camera is turned on for an AI vs. AI match between cricket heavyweights India and Australia. The action unfolds at the visually stunning Wankhede Stadium, offering a unique perspective on the game. With 5 overs per team, brace yourself for an intense showdown featuring cricket stars such as Virat Kohli, Rohit Sharma, and Jasprit Bumrah. 
+              The gameplay, presented in striking 4K60 HDR, accentuates the meticulous attention to detail and realism brought by the Dynamic Broadcast Camera setting. It's a must-watch for cricket enthusiasts and gaming aficionados seeking an authentic virtual cricket experience.
+            </p>
+          </div>
+         </div>
+         <div class="system-requirements" id="Specifications">
+          <h3>System Requirements</h3>
+          <table>
+            <tr>
+                <th colspan="2" class="header">MINIMUM:</th>
+                <th colspan="2" class="header">RECOMMENDED:</th>
+            </tr>
+            <tr>
+                <td colspan="2">Requires a 64-bit processor and operating system</td>
+                <td colspan="2">Requires a 64-bit processor and operating system</td>
+            </tr>
+            <tr>
+                <td><strong>OS:</strong></td>
+                <td>Windows 10 or Windows 11</td>
+                <td><strong>OS:</strong></td>
+                <td>Windows 10 or Windows 11</td>
+            </tr>
+            <tr>
+                <td><strong>Processor:</strong></td>
+                <td>Intel i3 2100 (3.1 GHz) / AMD FX 6300 (3.5 GHz)</td>
+                <td><strong>Processor:</strong></td>
+                <td>Intel i5 6600K (3.5 GHz) / AMD Ryzen 5 1600X (3.6 GHz)</td>
+            </tr>
+            <tr>
+                <td><strong>Memory:</strong></td>
+                <td>8 GB RAM</td>
+                <td><strong>Memory:</strong></td>
+                <td>8 GB RAM</td>
+            </tr>
+            <tr>
+                <td><strong>Graphics:</strong></td>
+                <td>NVIDIA GeForce GTX 770 (4 GB) / AMD Radeon R9 270 (4 GB)</td>
+                <td><strong>Graphics:</strong></td>
+                <td>NVIDIA GeForce GTX 1660 Ti (6 GB) / AMD RX 5700XT (8 GB)</td>
+            </tr>
+            <tr>
+                <td><strong>DirectX:</strong></td>
+                <td>Version 12</td>
+                <td><strong>DirectX:</strong></td>
+                <td>Version 12</td>
+            </tr>
+            <tr>
+                <td><strong>Network:</strong></td>
+                <td>Broadband Internet connection</td>
+                <td><strong>Network:</strong></td>
+                <td>Broadband Internet connection</td>
+            </tr>
+            <tr>
+                <td><strong>Storage:</strong></td>
+                <td>60 GB available space</td>
+                <td><strong>Storage:</strong></td>
+                <td>60 GB available space</td>
+            </tr>
+            <tr>
+                <td><strong>Additional Notes:</strong></td>
+                <td>Though not required, SSD for storage is recommended.</td>
+                <td><strong>Additional Notes:</strong></td>
+                <td>Though not required, SSD for storage is recommended.</td>
+            </tr>
+        </table>
+          </div>
+          <div class="game-review">
+            <h2>Game Reviews:</h2>
+            <div class="reviews">
+              <div class="review-button">
+                <button class="reviewaddbutton" onclick="addReview()">Add Review</button>
+              </div>
+              <textarea name="review" id="review" placeholder="Write your review here..." rows="4" cols="50"></textarea>
+              <ul id="review-container">
+              </ul>
+            </div>
+          </div>
+      </main>
+      <footer>
+        <nav class="navbar navbar-footer">
+          <a href="https://www.bigant.com/all-game-list/cricket-24/">Official game website</a>
+        </nav>
+      </footer>
+      <script src="index.js"></script>
+</body>
+</html>
